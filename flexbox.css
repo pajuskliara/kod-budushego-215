@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.cards-row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
